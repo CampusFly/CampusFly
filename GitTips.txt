@@ -1,0 +1,32 @@
+Author: Rikesh Thapa
+Date created: 2/7/2015 1435pm
+Date modified: 2/7/2015 1435pm
+Edited by: Rikesh Thapa
+
+Basic Comments on Using Git:
+
+1) Git init: - will set up git on one of your local files
+2) git pull URL: -will allow you to pull files from the given repo URL to your git repository
+3) git add file: will add your given file to the waiting list (I forget what this is called)-- it is an intermediar section before fully committing your files to the main branch or live repo
+
+4) git commit: will add the files in your intermediary section to the repo speciied.
+
+5) git status: will aloow you yo see status of your code
+
+6) git push will push you repo to the live
+
+
+----------------------------------------------------------------
+Warning:
+1) do not edit directly on origin/master. We will be able to see that you made the changes and messed everything up, so you do not want to be blamed
+2) always fork you your own repo or make a branch
+
+---------------------------------------------------------------
+Tips for debugging:
+1) git log: will allow you to see the log of changes made to the given branch
+2) git checkout id: will allow you to see the files in the state of the checked-out time period to determine if bug existed that that point
+3) git checkout master: will take you back to the original most recent issue
+4) git diff item1 item2: will allow you to compare two items and see what was added and removed
+
+
+I will ad more tips and commands that may help as time permits and issues arise
